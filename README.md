@@ -1,7 +1,7 @@
 # GephyTableConverter
 
 ### About
-This project's target is: 
+Target of this project is: 
 
 1. Finish Social Computing Assignment 3
 2. Convert excel specific format table into Gephy inputed format
