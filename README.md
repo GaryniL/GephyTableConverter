@@ -1,16 +1,15 @@
 # GephyTableConverter
 
 ### About
-This project includes two parts: 
+This project's target is: 
 
-1. Text to Speech Conversion
-2. Speech to Text Conversion
-
-However, to help transcribing voice recording to text easier, the main propose of this project is generating a well-organized file that includes each sentence of yoru voice recording files.
+1. Finish Social Computing Assignment 3
+2. Convert excel specific format table into Gephy inputed format
+3. If you don't know how to use it, please contact [Gary](mailto:garynil1635@gmail.com)
 
 ### Setup
 
-Put the files in same folder
+* Put the files in same folder
 ![Folder.png](images/Folder.png)
 
 ### Requirements
@@ -23,37 +22,43 @@ CSV file with this kind of format (You can make or transform it with Excel)
 
 ### Output
 
-Output will be two csv files and both can import to Gephy
+Output will be two CSV files and both can import to Gephy
 
-* Edge data:
+* Edge data( NAMEYOUCHOOSE_edge.csv ):
 ![test_edge.png](images/test_edge.png)
 
 
-* Node data:
+* Node data( NAMEYOUCHOOSE_node.csv ):
 ![test_node.png](images/test_node.png)
 
 ### Parameter
+
+You can change parameters in the code for different results:
 
 ![transform1_py.png](images/transform1_py.png)
 
 
 ### How to import to Gephy
 
-* Open your file with Audicity and choose "Analyze → Silence Finder..."
+* Open a new Gephy project and import Spreadsheet"
 
-![audacity1.jpg](images/audacity1.jpg)
+![G1.jpg](images/G1.png)
 
-* Change the settings, then press "OK"
+* Choose Edge CSV file and import it, remember to change the setting to 'Comma' and 'Edges table'
 
-![audacity2.jpg](images/audacity2.jpg) 
+![G2.jpg](images/G2.png)
 
-* Click "File → Export Multiple..."
+* Import the node table in same way. Still remember to change the setting into node table
 
-![audacity3.jpg](images/audacity3.jpg)
+![G3.jpg](images/G3.png)
 
-* Check export format and name files as the following settings, then export all files to same directory
+* Then the result will show
 
-![audacity4.jpg](images/audacity4.jpg)
+![G4.jpg](images/G4.png)
+
+* Also you can open the label for more information
+
+![G5.jpg](images/G5.png)
 
 ### License
 
