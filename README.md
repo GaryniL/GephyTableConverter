@@ -25,10 +25,12 @@ CSV file with this kind of format (You can make or transform it with Excel)
 Output will be two CSV files and both can import to Gephy
 
 * Edge data( NAMEYOUCHOOSE_edge.csv ):
+* 
 ![test_edge.png](images/test_edge.png)
 
 
 * Node data( NAMEYOUCHOOSE_node.csv ):
+* 
 ![test_node.png](images/test_node.png)
 
 ### Parameter
